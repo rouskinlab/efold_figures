@@ -23,4 +23,4 @@ The output plot of each notebook can be saved in `FigureK/images`
 ### Figure 4
 - [ ] **Alberic**: ablation_study
 - [ ] **Alberic**: structure_performance
-- [ ] **Colin**: DMS_SHAPE_performance
+- [ ] **Colin or Yves**: DMS_SHAPE_performance
