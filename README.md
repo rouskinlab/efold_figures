@@ -8,14 +8,14 @@ The output plot of each notebook can be saved in `FigureK/images`
 ## Assignement
 
 ### Figure 1
-- [ ] **Alberic**: algo_benchmark
+- [x] **Alberic**: algo_benchmark
 - [ ] **Yves**: length_fam_distrib
 
 ### Figure 2
-- [ ] **Alberic**: UMAP_families
+- [x] **Alberic**: UMAP_families
 - [ ] **Casper**: database_screenshot
 - [ ] **Colin**: length_distribution
-- [ ] **Yves**: DMS_constraint_power
+- [x] **Alberic**: benchmark_dataset
 
 ### Figure 3
 - [ ] **Colin**: model_architecture
