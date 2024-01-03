@@ -9,7 +9,7 @@ The output plot of each notebook can be saved in `FigureK/images`
 
 ### Figure 1
 - [x] **Alberic**: algo_benchmark
-- [ ] **Yves**: length_fam_distrib
+- [x] **Yves**: length_fam_distrib
 
 ### Figure 2
 - [x] **Alberic**: UMAP_families
