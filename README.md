@@ -14,11 +14,11 @@ The output plot of each notebook can be saved in `FigureK/images`
 ### Figure 2
 - [x] **Alberic**: UMAP_families
 - [ ] **Casper**: database_screenshot
-- [ x] **Colin**: length_distribution
+- [x] **Colin**: length_distribution
 - [x] **Alberic**: benchmark_dataset
 
 ### Figure 3
-- [ x] **Colin**: model_architecture
+- [x] **Colin**: model_architecture
 
 ### Figure 4
 - [ ] **Alberic**: ablation_study
