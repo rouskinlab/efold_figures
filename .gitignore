@@ -4,4 +4,6 @@ data
 dot
 shape
 fasta
-*data
+*.pt
+# *data
+# !*data/*.feather

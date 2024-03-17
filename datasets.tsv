@@ -1,0 +1,10 @@
+Training stage,Name on HuggingFace,Source,Method,Number of sequences,Filtering,Families,"L ∈ [10, 199]","L ∈ [200, 499]","L ∈ [500, 999]","L ∈ [1000, 1999]","L ∈ [2000, inf]"
+Pre-training,rnacentral_synthetic,RNA central,RNAstructure,"226,729",Diverse subset across families,All known families,"176,486","49,463",780,0,0
+Pre-training,ribo500-blast,Ribonanza Competition,RNAstructure + DMS and/or SHAPE,"46,060","500+ reads, AUROC > 0.8, BLAST",,"46,049",11,0,0,0
+Pre-training,bpRNA-1m,Published structures,Covariance analysis,"66,715",BLAST,"Unlabeled, sRNA, tRNA","48,090","6,167","2,829","9,260",369
+Pre-training,RNAstralign,Published structures,Covariance analysis,"27,082",BLAST,"rRNA, tRNA","15,879","2,191","2,252","6,760",0
+Fine-tuning,pri_miRNA,This work,RNAstructure + DMS,"1,098","Reads < 3000, AUROC > 0.8, BLAST",pri-miRNA,0,"1,098",0,0,0
+Fine-tuning,human_mRNA,This work,RNAstructure + DMS,"1,456","Reads < 3000, AUROC > 0.8, BLAST",mRNA,0,493,882,81,0
+Testing,PDB,Published 3D structures,"NMR, crystallography",356,TODO,Short non-coding RNA,343,6,6,1,0
+Testing,viral_fragments,TODO,RNAstructure + DMS,58,TODO,Viral RNA,11,29,18,0,0
+Testing,lncRNA,TODO,RNAstructure + DMS,15,TODO,Long non-coding RNA,0,2,1,12,0

@@ -1,0 +1,58 @@
+<table border="1" class="dataframe">
+  <thead>
+    <tr style="text-align: right;">
+      <th>Name on HuggingFace</th>
+      <th>Source</th>
+      <th>Method</th>
+      <th>Number of sequences</th>
+      <th>Filtering</th>
+      <th>Families</th>
+      <th>L ∈ [10, 199]</th>
+      <th>L ∈ [200, 499]</th>
+      <th>L ∈ [500, 999]</th>
+      <th>L ∈ [1000, 1999]</th>
+      <th>L ∈ [2000, inf]</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>rnacentral_synthetic</td>
+      <td>RNA central</td>
+      <td>RNAstructure</td>
+      <td>226,729</td>
+      <td>Diverse subset across families</td>
+      <td>All known families</td>
+      <td>176,486</td>
+      <td>49,463</td>
+      <td>780</td>
+      <td>0</td>
+      <td>0</td>
+    </tr>
+    <tr>
+      <td>ribo500-blast</td>
+      <td>Ribonanza Competition</td>
+      <td>RNAstructure + chemical probing (DMS and SHAPE)</td>
+      <td>46,060</td>
+      <td>500+ reads, AUROC &gt; 0.8, BLAST</td>
+      <td>NaN</td>
+      <td>46,049</td>
+      <td>11</td>
+      <td>0</td>
+      <td>0</td>
+      <td>0</td>
+    </tr>
+    <tr>
+      <td>bpRNA-1m</td>
+      <td>Published structures</td>
+      <td>Covariance analysis</td>
+      <td>66,715</td>
+      <td>BLAST</td>
+      <td>Unlabeled, sRNA, tRNA</td>
+      <td>48,090</td>
+      <td>6,167</td>
+      <td>2,829</td>
+      <td>9,260</td>
+      <td>369</td>
+    </tr>
+  </tbody>
+</table>
