@@ -7,3 +7,4 @@ fasta
 *.pt
 # *data
 # !*data/*.feather
+datasets.csv
