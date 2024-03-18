@@ -1,3 +1,0 @@
-Dataset,Fetched from online repository,Reads < 3'000,No abnormally high mutations,Coverage > 3000,Unique sequences,Replicate R2 > 0.8,AUROC > 0.8
-Human mRNA,7115,4502,3848,2929,1523,1503,1456
-Pri-miRNA,2516,2179,2179,2178,1107,1107,1105

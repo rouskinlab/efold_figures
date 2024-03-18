@@ -1,6 +1,0 @@
-Dataset,Fetched from online repository,Reads > 500 and S/N > 1,AUROC,BLAST,Duplicates,Non-ACGU characters,Sequences below 10nt,No structure,Redundancy across databases
-zuber,1450,0,0,0,123,20,0,0,164
-archiveII,3975,0,0,0,489,0,0,4,977
-RNAstralign,37149,0,0,0,6066,3949,0,3,24213
-bpRNA,102318,0,0,74617,0,0,0,135,24833
-Ribonanza,806573,597452,84310,16398,0,0,0,1,108412

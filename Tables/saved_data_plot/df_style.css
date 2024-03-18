@@ -1,0 +1,31 @@
+
+/* Style for the table */
+.mystyle {
+  border-collapse: collapse;
+  width: 100%;
+  font-family: "Times New Roman", Times, serif;
+}
+
+/* Style for table header */
+.mystyle th {
+  background-color: #f2f2f2; /* Light gray for header */
+  border: 1px solid #dddddd;
+  padding: 8px;
+  text-align: left;
+}
+
+/* Style for table data */
+.mystyle td {
+  border: 1px solid #dddddd;
+  padding: 8px;
+  text-align: left;
+}
+
+/* Style for alternate rows */
+.mystyle tr:nth-child(even) {
+  background-color: #f9f9f9; /* Lighter gray for even rows */
+}
+
+body {
+  font-family: "Times New Roman", Times, serif;
+}
