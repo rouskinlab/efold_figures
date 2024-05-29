@@ -8,3 +8,4 @@ fasta
 # *data
 # !*data/*.feather
 datasets.csv
+Figure5/saved_data_plot/results_main/*
